@@ -1,6 +1,4 @@
 import argparse
-from ast import arg
-from email.mime import image
 import sys
 from time import sleep
 

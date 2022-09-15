@@ -7,12 +7,12 @@ def mnist():
     train_images = []
     train_labels = []
     for i in range(5):
-        train = np.load(f"../../../data/corruptmnist/train_{i}.npz")
+        train = np.load(f"./data/corruptmnist/train_{i}.npz")
         images = train['images']
         labels = train["labels"]
         train_images.append(images)
         train_labels.append(labels)
-    test =  np.load(f"../../../data/corruptmnist/test.npz")
+    test =  np.load(f"./data/corruptmnist/test.npz")
     test_images = test["images"]
     test_labels = test["labels"]
     
